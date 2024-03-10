@@ -16,4 +16,15 @@ const firebaseConfig = {
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 
-// bazar-userinfo.firebaseapp.com
+const firebaseConfiggithub = {
+  apiKey: "AIzaSyBc738x3BkVQ2zRvIQ2AEOztoApawdqqc8",
+  authDomain: "bazar-userinfo.firebaseapp.com",
+  projectId: "bazar-userinfo",
+  storageBucket: "bazar-userinfo.appspot.com",
+  messagingSenderId: "971038201800",
+  appId: "1:971038201800:web:4beacf6ab54147507a52fd"
+};
+
+// Initialize Firebase
+export const appgithub = initializeApp(firebaseConfiggithub);
+

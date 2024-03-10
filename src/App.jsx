@@ -10,12 +10,12 @@ import Login from "./pages/Login";
 
 const Layout = ()=> {
   return(
-    <>
+    <div className="overflow-x-hidden overflow-y-hidden">
       <Header/>
       <ScrollRestoration/> 
       <Outlet/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
